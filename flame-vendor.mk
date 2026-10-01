@@ -30,9 +30,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/flame/proprietary/odm/firmware/novatek_ts_mp_txd.bin:$(TARGET_COPY_OUT_ODM)/firmware/novatek_ts_mp_txd.bin \
     vendor/xiaomi/flame/proprietary/odm/firmware/novatek_ts_mp_xinli.bin:$(TARGET_COPY_OUT_ODM)/firmware/novatek_ts_mp_xinli.bin \
     vendor/xiaomi/flame/proprietary/odm/firmware/novatek_ts_mp_xl7.bin:$(TARGET_COPY_OUT_ODM)/firmware/novatek_ts_mp_xl7.bin \
-    vendor/xiaomi/flame/proprietary/product/etc/displayconfig/game_app_category_list_backup.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/displayconfig/game_app_category_list_backup.xml \
-    vendor/xiaomi/flame/proprietary/product/etc/displayconfig/multi_factor_thermal_brightness_control.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/displayconfig/multi_factor_thermal_brightness_control.xml \
-    vendor/xiaomi/flame/proprietary/product/etc/displayconfig/rhythmic_app_category_list_backup.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/displayconfig/rhythmic_app_category_list_backup.xml \
     vendor/xiaomi/flame/proprietary/product/etc/permissions/UimGba.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/UimGba.xml \
     vendor/xiaomi/flame/proprietary/product/etc/permissions/UimService.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/UimService.xml \
     vendor/xiaomi/flame/proprietary/product/etc/permissions/privapp-permissions-hotword.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-hotword.xml \
@@ -438,10 +435,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/flame/proprietary/vendor/etc/init/dataadpl.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/dataadpl.rc \
     vendor/xiaomi/flame/proprietary/vendor/etc/init/dataqti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/dataqti.rc \
     vendor/xiaomi/flame/proprietary/vendor/etc/init/feature_enabler_client.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/feature_enabler_client.rc \
-    vendor/xiaomi/flame/proprietary/vendor/etc/init/hw/init.qcom.factory.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.qcom.factory.rc \
     vendor/xiaomi/flame/proprietary/vendor/etc/init/hw/init.qti.kernel.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.qti.kernel.rc \
     vendor/xiaomi/flame/proprietary/vendor/etc/init/hw/init.qti.kernel.target.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.qti.kernel.target.rc \
-    vendor/xiaomi/flame/proprietary/vendor/etc/init/hw/init.qti.ufs.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.qti.ufs.rc \
     vendor/xiaomi/flame/proprietary/vendor/etc/init/ims-dataservice-daemon.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/ims-dataservice-daemon.rc \
     vendor/xiaomi/flame/proprietary/vendor/etc/init/ims_rtp_daemon.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/ims_rtp_daemon.rc \
     vendor/xiaomi/flame/proprietary/vendor/etc/init/imsdaemon.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/imsdaemon.rc \
@@ -463,7 +458,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/flame/proprietary/vendor/etc/init/qesdk-manager.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/qesdk-manager.rc \
     vendor/xiaomi/flame/proprietary/vendor/etc/init/qesdk-secmanager.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/qesdk-secmanager.rc \
     vendor/xiaomi/flame/proprietary/vendor/etc/init/qguard.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/qguard.rc \
-    vendor/xiaomi/flame/proprietary/vendor/etc/init/qmipriod.debug.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/qmipriod.debug.rc \
     vendor/xiaomi/flame/proprietary/vendor/etc/init/qmipriod.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/qmipriod.rc \
     vendor/xiaomi/flame/proprietary/vendor/etc/init/qseecomd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/qseecomd.rc \
     vendor/xiaomi/flame/proprietary/vendor/etc/init/qwesd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/qwesd.rc \
@@ -530,7 +524,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/flame/proprietary/vendor/etc/perf/testcommonresourceconfigs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/testcommonresourceconfigs.xml \
     vendor/xiaomi/flame/proprietary/vendor/etc/perf/testtargetresourceconfigs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/testtargetresourceconfigs.xml \
     vendor/xiaomi/flame/proprietary/vendor/etc/perf/thermalboost.conf:$(TARGET_COPY_OUT_VENDOR)/etc/perf/thermalboost.conf \
-    vendor/xiaomi/flame/proprietary/vendor/etc/permissions/android.hardware.hardware_keystore.km100.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.hardware_keystore.km100.xml \
+    vendor/xiaomi/flame/proprietary/vendor/etc/permissions/android.hardware.hardware_keystore.km300.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.hardware_keystore.km300.xml \
     vendor/xiaomi/flame/proprietary/vendor/etc/public.libraries.txt:$(TARGET_COPY_OUT_VENDOR)/etc/public.libraries.txt \
     vendor/xiaomi/flame/proprietary/vendor/etc/pwr/PSMPowerOptFeature.xml:$(TARGET_COPY_OUT_VENDOR)/etc/pwr/PSMPowerOptFeature.xml \
     vendor/xiaomi/flame/proprietary/vendor/etc/pwr/PowerFeatureConfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/pwr/PowerFeatureConfig.xml \
@@ -687,7 +681,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/flame/proprietary/vendor/etc/sensors/config/sns_wrist_pedo.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_wrist_pedo.json \
     vendor/xiaomi/flame/proprietary/vendor/etc/sensors/hals.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/hals.conf \
     vendor/xiaomi/flame/proprietary/vendor/etc/sensors/sns_reg_config:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/sns_reg_config \
-    vendor/xiaomi/flame/proprietary/vendor/etc/snapdragon_color_libs_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/snapdragon_color_libs_config.xml \
     vendor/xiaomi/flame/proprietary/vendor/etc/ssg/ta_config.json:$(TARGET_COPY_OUT_VENDOR)/etc/ssg/ta_config.json \
     vendor/xiaomi/flame/proprietary/vendor/etc/ssg/tz_whitelist.json:$(TARGET_COPY_OUT_VENDOR)/etc/ssg/tz_whitelist.json \
     vendor/xiaomi/flame/proprietary/vendor/etc/stub_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/stub_audio_policy_configuration.xml \
@@ -1095,7 +1088,6 @@ PRODUCT_PACKAGES += \
     libcdfw_remote_api \
     libcdsp_default_listener \
     libcdsprpc \
-    libcert_parse.wpa_s \
     libchilog \
     libcne \
     libcneapiclient \
@@ -1208,7 +1200,6 @@ PRODUCT_PACKAGES += \
     libmialgo_utils \
     libmialgoengine \
     libmialgoengine2 \
-    libmiface \
     libmikaraoke \
     libminkdescriptor \
     libminksocket_vendor \
@@ -1316,10 +1307,8 @@ PRODUCT_PACKAGES += \
     libqmi_client_qmux \
     libqmi_common_so \
     libqmi_csi \
-    libqmi_csvt_srvc \
     libqmi_encdec \
     libqmi_legacy \
-    libqmiextservices \
     libqmiservices \
     libqrtr \
     libqrtrclient \
@@ -1370,7 +1359,6 @@ PRODUCT_PACKAGES += \
     libskewknob \
     libsl_fp_impl \
     libslimclient \
-    libsmemlog \
     libsnapdragoncolor-manager \
     libsnapdragoncolor-qdcm \
     libsnpe_dsp_domains_v2 \
@@ -1382,13 +1370,10 @@ PRODUCT_PACKAGES += \
     libsoc_helper \
     libspcom \
     libspl \
-    libspukeymintdeviceutils \
-    libspukeymintutils \
     libssc \
     libssc_default_listener \
     libssd \
     libstandbyfeature \
-    libsubsystem_control \
     libswregistrationalgo \
     libsynergy_loc_api \
     libsynx \
@@ -1486,7 +1471,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.gnss-V7-ndk \
     vendor.qti.gnss-service \
     vendor.qti.hardware.ListenSoundModelAidl-V1-ndk \
-    vendor.qti.hardware.agm-V1-ndk \
     vendor.qti.hardware.alarm-V1-ndk \
     vendor.qti.hardware.bluetooth_sar-V1-ndk \
     vendor.qti.hardware.bttpi-V3-ndk \
@@ -1535,8 +1519,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.vpp@1.3 \
     vendor.qti.hardware.wifidisplaysession_aidl-V1-ndk \
     vendor.qti.hardware.wifidisplaysessionl@1.0-halimpl \
-    vendor.qti.hardware.wigig.netperftuner@1.0 \
-    vendor.qti.ims.callcapability@1.0 \
     vendor.qti.ims.callcapabilityaidlservice-V1-ndk \
     vendor.qti.ims.configaidlservice-V1-ndk \
     vendor.qti.ims.connectionaidlservice-V1-ndk \
@@ -1566,8 +1548,6 @@ PRODUCT_PACKAGES += \
     vendor.xiaomi.hardware.fx.tunnel-V1-ndk \
     vendor.xiaomi.hardware.micharge-V2-ndk \
     vendor.xiaomi.hardware.mlipay-V1-ndk \
-    vendor.xiaomi.hardware.wifi.hostapd-V1-ndk \
-    vendor.xiaomi.hardware.wifi.supplicant-V1-ndk \
     vendor_lib_rfsa_adsp_libSnpeHtpV68Skel_so \
     vendor_lib_rfsa_adsp_libSnpeHtpV69Skel_so \
     vendor_lib_rfsa_adsp_libcalculator_skel_so \
@@ -1692,7 +1672,6 @@ PRODUCT_PACKAGES += \
     mwqem-saidl.xml \
     qcrilhook-saidl.xml \
     qesdk-manager.xml \
-    qspa-modem.xml \
     qspa-nav.xml \
     qtiradio-saidl.xml \
     snapdragon_services.xml \
@@ -1748,7 +1727,6 @@ PRODUCT_PACKAGES += \
     android.hardware.keymaster@4.0-service-qti \
     android.hardware.secure_element-service.qti \
     android.hardware.security.keymint-service-qti \
-    android.hardware.weaver-service-spu-qti \
     qcrilNrd \
     vendor.qti.camera.provider-service_64 \
     vendor.qti.hardware.alarm-service \
@@ -1767,25 +1745,14 @@ PRODUCT_PACKAGES += \
     ims_rtp_daemon \
     imsdaemon \
     init.class_main \
-    init.crda \
     init.kernel.post_boot-parrot \
     init.kernel.post_boot-ravelin \
     init.kernel.post_boot \
-    init.mdm \
-    init.qcom.class_core \
-    init.qcom.coex \
     init.qcom.early_boot \
-    init.qcom.efs.sync \
     init.qcom.post_boot \
-    init.qcom.sdio \
     init.qcom.sensors \
     init.qcom \
     init.qcrild \
-    init.qti.kernel.debug-parrot \
-    init.qti.kernel.debug-ravelin \
-    init.qti.kernel.debug \
-    init.qti.kernel.early_debug-parrot \
-    init.qti.kernel.early_debug \
     init.qti.kernel \
     init.qti.media \
     init.qti.qcv \
@@ -1812,8 +1779,6 @@ PRODUCT_PACKAGES += \
     qguard \
     qlm-service \
     qmipriod \
-    qrtr-cfg \
-    qrtr-lookup \
     qrtr-ns \
     qsap_location \
     qsap_qapeservice \
