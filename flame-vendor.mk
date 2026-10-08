@@ -34,6 +34,15 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/flame/proprietary/product/etc/permissions/UimService.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/UimService.xml \
     vendor/xiaomi/flame/proprietary/product/etc/permissions/privapp-permissions-hotword.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-hotword.xml \
     vendor/xiaomi/flame/proprietary/product/framework/lc-lib-imsvt.so:$(TARGET_COPY_OUT_PRODUCT)/framework/lc-lib-imsvt.so \
+    vendor/xiaomi/flame/proprietary/recovery/root/lib/firmware/focaltech_ts_fw_hkc.bin:$(TARGET_COPY_OUT_RECOVERY)/root/lib/firmware/focaltech_ts_fw_hkc.bin \
+    vendor/xiaomi/flame/proprietary/recovery/root/lib/firmware/novatek_ts_fw_boe.bin:$(TARGET_COPY_OUT_RECOVERY)/root/lib/firmware/novatek_ts_fw_boe.bin \
+    vendor/xiaomi/flame/proprietary/recovery/root/lib/firmware/novatek_ts_fw_txd.bin:$(TARGET_COPY_OUT_RECOVERY)/root/lib/firmware/novatek_ts_fw_txd.bin \
+    vendor/xiaomi/flame/proprietary/recovery/root/lib/firmware/novatek_ts_fw_xinli.bin:$(TARGET_COPY_OUT_RECOVERY)/root/lib/firmware/novatek_ts_fw_xinli.bin \
+    vendor/xiaomi/flame/proprietary/recovery/root/lib/firmware/novatek_ts_fw_xl7.bin:$(TARGET_COPY_OUT_RECOVERY)/root/lib/firmware/novatek_ts_fw_xl7.bin \
+    vendor/xiaomi/flame/proprietary/recovery/root/lib/firmware/novatek_ts_mp_boe.bin:$(TARGET_COPY_OUT_RECOVERY)/root/lib/firmware/novatek_ts_mp_boe.bin \
+    vendor/xiaomi/flame/proprietary/recovery/root/lib/firmware/novatek_ts_mp_txd.bin:$(TARGET_COPY_OUT_RECOVERY)/root/lib/firmware/novatek_ts_mp_txd.bin \
+    vendor/xiaomi/flame/proprietary/recovery/root/lib/firmware/novatek_ts_mp_xinli.bin:$(TARGET_COPY_OUT_RECOVERY)/root/lib/firmware/novatek_ts_mp_xinli.bin \
+    vendor/xiaomi/flame/proprietary/recovery/root/lib/firmware/novatek_ts_mp_xl7.bin:$(TARGET_COPY_OUT_RECOVERY)/root/lib/firmware/novatek_ts_mp_xl7.bin \
     vendor/xiaomi/flame/proprietary/system/etc/sysconfig/qti_whitelist.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/qti_whitelist.xml \
     vendor/xiaomi/flame/proprietary/system_ext/etc/init/qspa_system.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/qspa_system.rc \
     vendor/xiaomi/flame/proprietary/system_ext/etc/init/vendor.qti.qccsyshal_aidl-service.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/vendor.qti.qccsyshal_aidl-service.rc \
